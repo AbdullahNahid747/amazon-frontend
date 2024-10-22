@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Component/Navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      happy to start our amazon lon
+      <Navbar />
     </div>
   );
 }
